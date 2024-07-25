@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "scripts": {
+        "frontend-watch": "mix watch",
+        "frontend-prod": "mix --production"
+    },
+    "devDependencies": {
+        "laravel-mix": "^6.0.13",
+        "resolve-url-loader": "5.0.0",
+        "sass": "^1.63.6",
+        "sass-loader": "12.1.0"
+    },
+    "dependencies": {}
+}

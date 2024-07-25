@@ -1,0 +1,174 @@
+body,.has-search-map .bravo_search_map{
+    direction: rtl;
+    text-align: initial;
+}
+.mr-3,.mx-3{
+    margin-left: 1rem;
+    margin-right: 0rem!important;
+}
+.mr-4,.mx-4{
+    margin-left: 1.5rem;
+    margin-right: 0rem!important;
+}
+.mr-6,.mx-6{
+    margin-left: 2.5rem;
+    margin-right: 0rem!important;
+}
+.mr-2,.mx-2{
+    margin-left: 1.25rem;
+    margin-right: 0rem!important;
+}
+.ml-2,.ml-2{
+    margin-left: 0rem!important;
+    margin-right: 0.5rem;
+}
+.ml-3,.ml-3{
+    margin-left: 0rem!important;
+    margin-right: 1rem;
+}
+.hotel_rooms_form .form-search-rooms .form-search-row > div .arrow{
+    left: 20px;
+    right: auto;
+}
+.owner-info .media-left{
+    padding-right: 0px;
+    padding-left: 10px;
+}
+.bravo_wrap .bravo_content .description ul li:before{
+    margin-right: 0px!important;
+    margin-left: 20px!important;
+}
+.text-left{
+    text-align: right!important;
+}
+.bravo_wrap .bravo_footer .copy-right .context .f-visa{
+    left: 15px;
+    right: auto;
+}
+.rtl-left-0{
+    left: 0px;
+}
+.rtl-right-auto{
+    right: auto;
+}
+
+.rtl-pr-0{
+    padding-right: 0px!important;
+}
+.rtl-pl-wd-5{
+    padding-left: 2rem !important;
+}
+@media(min-width: 1200px){
+    .rtl-border-xl-right {
+        border-right: 1px solid #e7eaf3!important;
+    }
+    .rtl-border-xl-left-0 {
+        border-left: none!important;
+    }
+    .text-xl-right{
+        text-align: left!important;
+    }
+}
+@media(min-width: 768px){
+    .mr-md-5, .mx-md-5 {
+        margin-right: 0rem !important;
+        margin-left: 2rem !important;
+    }
+    .text-md-left{
+        text-align: right!important;
+    }
+}
+@media(min-width: 992px){
+    .text-lg-left{
+        text-align: right!important;
+    }
+}
+.custom-control{
+    padding-right: 1.813rem;
+    padding-left: 0;
+    label{
+        &::before{
+            left: auto;
+            right: -1.813rem;
+        }
+        &::after{
+            left: auto;
+            right: -1.813rem;
+        }
+    }
+
+}
+body .bravo_wrap .bravo_single_book .sale-box{
+    left: 15px!important;
+    right: auto!important;
+}
+.bravo_wrap .bravo_content .g-faq .item .header h5,
+.bravo_wrap .bravo_content .g-faq .item .header .field-icon{
+    float:right!important;
+}
+.bravo_wrap .bravo_content .g-faq .item .header .arrow{
+    float: left!important;
+}
+.bravo_wrap .bravo_content .g-faq .item .header .field-icon{
+    margin-right: 0px!important;
+    margin-left: 10px;
+}
+.bravo-news .sidebar-widget .sidebar-title h4, .bravo-news .sidebar-widget .sidebar-title h2{
+    padding-left: 25px;
+    padding-right: 0px;
+}
+.bravo-news .widget_bloglist ul li .thumb img,
+.bravo-news .widget_category ul li span{
+    margin-right: 0px;
+    margin-left: 15px;
+}
+.u-header__section{
+    .ml-auto{
+        margin-left: 0!important;
+        margin-right: auto;
+    }
+}
+.bravo_wrap .bravo_topbar .socials a{
+    padding-right: 0px;
+    padding-left: 18px;
+    &:first-child{
+        padding-left: 18px;
+    }
+}
+.bravo_wrap .bravo-list-item .topbar-search .control .item{
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: solid 1px #a7a7a7;
+    border-left: 0px;
+}
+.bravo_wrap .bravo-list-item .topbar-search .control .item .dropdown{
+    margin-right: 10px;
+    margin-left: 0px;
+}
+.item-loop{
+    .right-0{
+        right: auto;
+        left: 0;
+    }
+    .pr-3{
+        padding-left: 1rem!important;
+        padding-right: 0!important;
+    }
+    .featured{
+        right: 0px!important;
+        left: auto!important;
+        padding-right: 1rem!important;
+        padding-left: 0!important;
+    }
+
+    .service-wishlist{
+        right: auto!important;
+        left: 0!important;
+    }
+}
+.bravo_wrap .bravo_search_tour .bravo-list-item .list-item .item-loop .list-star .booking-item-rating-stars-active{
+    left: auto;
+    right:0px;
+}

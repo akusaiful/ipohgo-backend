@@ -1,0 +1,26 @@
+@media (min-width: 1024px)
+{
+    .u-header__search-lg, .u-header__topbar-lg, .u-header__last-item-btn-lg {
+        display: block;
+    }
+    .u-header--white-nav-links-xl:not(.bg-white):not(.js-header-fix-moment) .u-header__navbar-link, .u-header--white-nav-links-xl:not(.bg-white):not(.js-header-fix-moment) .dropdown-nav-link, .u-header--white-nav-links-xl:not(.bg-white):not(.js-header-fix-moment) .btn-text-secondary {
+        color: white;
+    }
+}
+@media (max-width: 1100px)
+{
+    .u-header__search-lg, .u-header__topbar-lg, .u-header__last-item-btn-lg {
+        .container{
+            max-width: 100%;
+        }
+    }
+}
+@media (max-width: 1024px)
+{
+    .bravo_search_flight .bravo_form_search{
+        flex-wrap: wrap;
+        .g-button-submit{
+            padding: 15px;
+        }
+    }
+}

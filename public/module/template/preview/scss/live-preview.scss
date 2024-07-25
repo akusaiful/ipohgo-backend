@@ -1,0 +1,44 @@
+.live-block-preview {
+    position: relative;
+
+    .block-preview {
+    }
+
+    .block-info {
+        position: absolute;
+        top: 0px;
+        background: #5191fa;
+        padding: 4px 10px;
+        left: 0;
+        z-index: 10;
+        color: white;
+        display: none;
+    }
+
+    &.selectable {
+        &:hover, &.selected {
+            .block-info {
+                display: block;
+            }
+
+            &:before {
+                content: " ";
+                pointer-events: none;
+                position: absolute;
+                left: 0;
+                top: 0;
+                display: block;
+                height: 100%;
+                width: 100%;
+                border-width: 1px;
+                border-style: dashed;
+                --tw-border-opacity: 1;
+                border-color: rgb(38 128 235/var(--tw-border-opacity));
+            }
+
+            &.selected:before {
+                border-style: solid;
+            }
+        }
+    }
+}
